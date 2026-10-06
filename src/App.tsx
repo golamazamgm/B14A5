@@ -1,14 +1,18 @@
 import './App.css'
 import NavBar from './components/nav/NavBar'
+import HeroSection from './components/hero/HeroSection'
 
 
 function App() {
 
   return (
     <>
-      
-     <h1>hi...!</h1>
-     <NavBar />
+           <NavBar />
+
+           <HeroSection></HeroSection>
+
+
+     
 
     </>
   )
