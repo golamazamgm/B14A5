@@ -1,4 +1,4 @@
-import React from 'react';
+
 import type { technologyType } from '../../type';
 
 interface YourStackProps {

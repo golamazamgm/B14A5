@@ -1,4 +1,4 @@
-import React from 'react';
+
 import type { technologyType } from '../../type';
 
 interface TechnologyProps {
@@ -49,11 +49,10 @@ const Technology = ({ techno, onAddToStack, isAdded }: TechnologyProps) => {
           type="button"
           onClick={() => onAddToStack(techno)}
           disabled={isAdded}
-          className={`btn btn-block rounded-xl border-none normal-case font-medium text-sm h-11 min-h-[44px] transition-colors ${
-            isAdded
+          className={`btn btn-block rounded-xl border-none normal-case font-medium text-sm h-11 min-h-[44px] transition-colors ${isAdded
               ? 'bg-gray-200 text-gray-400 cursor-not-allowed'
               : 'bg-[#0B0F19] hover:bg-gray-800 text-white'
-          }`}
+            }`}
         >
           {isAdded ? 'Added' : 'Add to Stack'}
         </button>
